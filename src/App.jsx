@@ -1,9 +1,9 @@
-import Error404 from "./Components/404";
+import Videos from "./Components/list";
 
 function App() {
   return (
     <>
-      <Error404 />
+      <Videos />
     </>
   );
 }
