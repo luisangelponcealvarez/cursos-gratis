@@ -1,9 +1,9 @@
-import Videos from "./Components/list";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <>
-      <Videos />
+      <Home />
     </>
   );
 }
