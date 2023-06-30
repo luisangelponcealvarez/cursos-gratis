@@ -21,24 +21,24 @@ export const Youtube = [
     autor: "TodoCode",
     video: "https://www.youtube.com/watch?v=5NO_IpLml_Y",
   },
-  {
-    titulo: "",
-    autor: "",
-    video: "",
-  },
-  {
-    titulo: "",
-    autor: "",
-    video: "",
-  },
-  {
-    titulo: "",
-    autor: "",
-    video: "",
-  },
-  {
-    titulo: "",
-    autor: "",
-    video: "",
-  },
+  // {
+  //   titulo: "",
+  //   autor: "",
+  //   video: "",
+  // },
+  // {
+  //   titulo: "",
+  //   autor: "",
+  //   video: "",
+  // },
+  // {
+  //   titulo: "",
+  //   autor: "",
+  //   video: "",
+  // },
+  // {
+  //   titulo: "",
+  //   autor: "",
+  //   video: "",
+  // },
 ];
