@@ -1,9 +1,15 @@
 import Home from "./Components/Home";
+import { Youtube } from "./Components/Home/Videos";
 
 function App() {
+  // esta es la función para leer la lista de videos de youtube para la pagina de inicio
+
+  const video = Youtube.map((Video, index) => {
+    return <Home lista={Video} key={index} />;
+  });
   return (
     <>
-      <Home />
+      <section>{video}</section>
     </>
   );
 }
