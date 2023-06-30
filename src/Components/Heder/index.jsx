@@ -27,8 +27,17 @@ function Heder() {
                   Home
                 </Link>
               </li>
+              <li class="nav-item">
+                <Link
+                  class="nav-link active"
+                  aria-current="page"
+                  to="/Luis_Angel_Ponce_Alvarez"
+                >
+                  LuisAngelPonceAlvarez
+                </Link>
+              </li>
             </ul>
-            <form class="d-flex" role="search">
+            {/* <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
@@ -38,7 +47,7 @@ function Heder() {
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
