@@ -1,12 +1,14 @@
-import React from "react";
 import ReactPlayer from "react-player";
 import "./Home.css";
 
 function Home(props) {
   const { titulo, autor, video } = props.lista;
   return (
-    <div className="m-2 d-inline-flex flex-wrap">
-      <div className="card rounded " style={{ width: "400px" }}>
+    <div className="Home d-inline-flex flex-wrap justify-content-center aling-items-center">
+      <div
+        className="card rounded"
+        style={{ border: "2px solid black", borderRadius: "5px" }}
+      >
         <ReactPlayer
           className="video"
           width="100%"

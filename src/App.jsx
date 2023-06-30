@@ -1,3 +1,4 @@
+import Heder from "./Components/Heder";
 import Home from "./Components/Home";
 import { Youtube } from "./Components/Home/Videos";
 
@@ -9,6 +10,7 @@ function App() {
   });
   return (
     <>
+      <Heder />
       <section>{video}</section>
     </>
   );
