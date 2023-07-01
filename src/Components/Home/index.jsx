@@ -6,8 +6,8 @@ function Home(props) {
   return (
     <div className="Home d-inline-flex flex-wrap justify-content-center aling-items-center">
       <div
-        className="card rounded"
-        style={{ border: "2px solid black", borderRadius: "5px" }}
+        className="card"
+        style={{ border: "2px solid black", borderRadius: "10px" }}
       >
         <ReactPlayer
           className="video"

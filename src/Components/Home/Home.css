@@ -1,9 +1,16 @@
 .card {
   width: 400px;
-  height: 400px;
 }
 
 .Home {
-  margin: 5em 3em 1em 2em;
-  height: 53vh;
+  margin: 5em 2em auto;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 300px;
+  }
+  .Home {
+    margin: 4em 2em auto;
+  }
 }
