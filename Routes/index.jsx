@@ -3,6 +3,7 @@ import Error404 from "../src/Components/404";
 
 import { createBrowserRouter } from "react-router-dom";
 import Luisangelponce from "../src/site/Luisangelponce";
+import GiaFrontEnd from "../src/site/gia";
 
 const routes = [
   {
@@ -12,6 +13,10 @@ const routes = [
   {
     path: "/Luis_Angel_Ponce_Alvarez",
     element: <Luisangelponce />,
+  },
+  {
+    path: "/GiaFrontEnd",
+    element: <GiaFrontEnd/>
   },
   {
     path: "/*",
