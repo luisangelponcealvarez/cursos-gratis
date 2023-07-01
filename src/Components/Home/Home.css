@@ -4,5 +4,16 @@
 }
 
 .Home {
-  margin: 5em 3em 1em 2em;
+  margin: 10px auto;
+  height: 53vh;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 280px;
+    height: 400px;
+  }
+  .Home {
+    margin: 10px auto 10px;
+  }
 }
