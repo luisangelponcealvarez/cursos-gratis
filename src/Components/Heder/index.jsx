@@ -28,13 +28,13 @@ function Heder() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link active"
                   aria-current="page"
-                  to="/Luis_Angel_Ponce_Alvarez"
+                  href="https://luisangelponcealvarez.netlify.app/VideosDeYouTube"
                 >
                   LuisAngelPonceAlvarez
-                </Link>
+                </a>
               </li>
               {/* <li className="nav-item">
                 <Link
