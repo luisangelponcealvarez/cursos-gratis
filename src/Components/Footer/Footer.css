@@ -6,6 +6,6 @@ footer {
 
 @media (max-width: 800px) {
   footer {
-    margin: 3em auto 122px;
+    margin: 5em auto 3em;
   }
 }
