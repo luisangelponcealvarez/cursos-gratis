@@ -31,7 +31,7 @@ function Heder() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/Luis_Angel_Ponce_Alvarez"
+                  to="https://luisangelponcealvarez.netlify.app/VideosDeYouTube" target="_black"
                 >
                   LuisAngelPonceAlvarez
                 </Link>

@@ -4,7 +4,7 @@ import "./Home.css";
 function Home(props) {
   const { titulo, autor, video } = props.lista;
   return (
-    <div className="Home d-inline-flex flex-wrap justify-content-center aling-items-center">
+    <div className="Home d-inline-flex flex-wrap">
       <div
         className="card"
         style={{ border: "2px solid black", borderRadius: "10px" }}
