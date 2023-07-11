@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import Heder from "./Components/Heder";
 import Home from "./Components/Home";
 import { Youtube } from "./Components/Home/Videos";
@@ -12,6 +13,7 @@ function App() {
     <>
       <Heder />
       <section>{video}</section>
+      <Footer />
     </>
   );
 }
