@@ -5,10 +5,10 @@ import { createBrowserRouter } from "react-router-dom";
 // import GiaFrontEnd from "../src/site/gia";
 
 const routes = [
-  {
-    path: "/",
-    element: <App />,
-  },
+  // {
+  //   path: "/",
+  //   element: <App />,
+  // },
   // {
   //   path: "/GiaFrontEnd",
   //   element: <GiaFrontEnd />,
