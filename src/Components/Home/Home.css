@@ -6,12 +6,19 @@
   margin: 5em 2em auto;
 }
 
+.video {
+  border-radius: 20px;
+}
+
 @media (min-width: 800px) {
   .card {
     width: 400px;
   }
   .Home {
     margin: 5em 8.4em -3em;
+  }
+  .video {
+    border-radius: 20px;
   }
 }
 
@@ -21,5 +28,8 @@
   }
   .Home {
     margin: 5em 10px -3em;
+  }
+  .video {
+    border-radius: 20px;
   }
 }

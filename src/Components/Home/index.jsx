@@ -7,7 +7,7 @@ function Home(props) {
     <div className="Home d-inline-flex flex-wrap">
       <div
         className="card"
-        style={{ border: "2px solid black", borderRadius: "10px" }}
+        style={{ border: "2px solid black", borderRadius: "15px" }}
       >
         <ReactPlayer
           className="video"
