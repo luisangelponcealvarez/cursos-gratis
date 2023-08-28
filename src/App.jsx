@@ -1,21 +1,18 @@
-import Footer from "./Components/Footer";
-import Heder from "./Components/Heder";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
-import { Youtube } from "./Components/Home/Videos";
+import Error404 from "./Components/404";
+import GiaFrontEnd from "./site/gia";
 
-function App() {
-  // esta es la función para leer la lista de videos de youtube para la pagina de inicio
-
-  const video = Youtube.map((Video, index) => {
-    return <Home lista={Video} key={index} />;
-  });
+export function App() {
   return (
     <>
-      <Heder />
-      <section>{video}</section>
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/GiaFrontEnd" element={<GiaFrontEnd />} /> */}
+          <Route path="/*" element={<Error404 />} />
+        </Routes>
+      </Router>
     </>
   );
 }
-
-export default App;

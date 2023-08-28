@@ -1,18 +1,17 @@
-import ReactPlayer from "react-player";
-import "./Home.css";
+import Footer from "../Footer";
+import Heder from "../Heder";
+import { Card } from "./Card";
+import { Youtube } from "./Videos";
 
-function Home(props) {
-  const { titulo, autor, video } = props.lista;
+function Home() {
   return (
-    <div className="Home d-inline-flex flex-wrap">
-      <div className="card">
-        <ReactPlayer className="video" url={video} controls />
-        <div className="card-body">
-          <h1 className="card-text fs-5">{titulo}</h1>
-          <p className="card-text">Autor(@): {autor}</p>
-        </div>
-      </div>
-    </div>
+    <>
+      {Youtube.map((Video, index) => {
+        return <Card lista={Video} key={index} />;
+      })}
+      <Heder />
+      <Footer />
+    </>
   );
 }
 
