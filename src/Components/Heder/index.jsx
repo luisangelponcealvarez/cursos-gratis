@@ -27,15 +27,6 @@ function Heder() {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="https://luisangelponcealvarez.netlify.app/VideosDeYouTube" target="_black"
-                >
-                  LuisAngelPonceAlvarez
-                </Link>
-              </li>
               {/* <li className="nav-item">
                 <Link
                   className="nav-link active"
