@@ -27,15 +27,15 @@ function Heder() {
                   Home
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link
                   className="nav-link active"
                   aria-current="page"
                   to="/GiaFrontEnd"
                 >
-                  GiaFrontEnd 
+                  GiaFrontEnd
                 </Link>
-              </li> */}
+              </li>
             </ul>
             {/* <form className="d-flex" role="search">
               <input
