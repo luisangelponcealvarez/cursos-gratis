@@ -7,7 +7,6 @@ export function Fundamentos_de_HTML_y_CSS() {
   return (
     <div className="container">
       <Heder />
-      <Nav_Gia_Front_End />
       <div className="row my-5">
         <div className="col">
           <section>
@@ -61,6 +60,7 @@ export function Fundamentos_de_HTML_y_CSS() {
           </section>
         </div>
       </div>
+      <Nav_Gia_Front_End />
       <Footer />
     </div>
   );
