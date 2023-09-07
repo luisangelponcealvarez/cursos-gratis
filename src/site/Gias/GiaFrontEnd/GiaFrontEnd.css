@@ -1,0 +1,32 @@
+.nav-gia-frontend {
+  display: flex;
+  justify-content: right;
+  margin: 10em 1em;
+}
+
+.nav-gia-frontend ul li {
+  margin: 10px;
+}
+
+#HomeGiaFrontEnd .contenedor {
+  width: 65%;
+  margin: 5em 0px;
+}
+/* max-width: 1143px */
+@media (min-width: 300px) and (max-width: 1143px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-gia-frontend {
+    position: relative;
+  }
+
+  .player {
+    width: 200px;
+    height: 300px;
+  }
+}
