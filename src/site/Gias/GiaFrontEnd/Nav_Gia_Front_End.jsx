@@ -37,7 +37,7 @@ export function Nav_Gia_Front_End() {
 
           <li>
             <Link
-              to="/Frameworks_de_Front_end/"
+              to="/Frameworks_de_Front_end"
               className="btn btn-outline-secondary"
             >
               4. Frameworks de Front_end
