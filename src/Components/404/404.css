@@ -10,6 +10,7 @@
   width: auto;
   height: auto;
   object-fit: contain;
+  margin: 5em auto;
 }
 
 @media (min-width: 768px) {

@@ -10,6 +10,7 @@ export function GiaFrontEnd() {
       <div className="row my-5">
         <div className="col">
           <div className="contenedor">
+            <hr />
             <h1 className="m-4">Gia Front End</h1>
             <hr />
             <p>

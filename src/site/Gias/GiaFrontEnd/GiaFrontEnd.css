@@ -8,10 +8,6 @@
   margin: 10px;
 }
 
-#HomeGiaFrontEnd .contenedor {
-  width: 65%;
-  margin: 5em 0px;
-}
 /* max-width: 1143px */
 @media (min-width: 300px) and (max-width: 1143px) {
   .container {
@@ -23,10 +19,5 @@
 
   .nav-gia-frontend {
     position: relative;
-  }
-
-  .player {
-    width: 200px;
-    height: 300px;
   }
 }

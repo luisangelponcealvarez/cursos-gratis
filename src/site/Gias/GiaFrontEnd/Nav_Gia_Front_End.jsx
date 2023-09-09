@@ -73,7 +73,7 @@ export function Nav_Gia_Front_End() {
 
           <li>
             <Link
-              to="/Versionado de Código"
+              to="/Versionado_de_Código"
               className="btn btn-outline-secondary"
             >
               8. Versionado de Código
@@ -82,7 +82,7 @@ export function Nav_Gia_Front_End() {
 
           <li>
             <Link
-              to="/Despliegue y Hosting"
+              to="/Despliegue_y_Hosting"
               className="btn btn-outline-secondary"
             >
               9. Despliegue y Hosting
@@ -91,7 +91,7 @@ export function Nav_Gia_Front_End() {
 
           <li>
             <Link
-              to="/Proyectos Prácticos"
+              to="/Proyectos_Prácticos"
               className="btn btn-outline-secondary"
             >
               10. Proyectos Prácticos

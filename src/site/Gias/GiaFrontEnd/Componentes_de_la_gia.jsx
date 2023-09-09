@@ -10,55 +10,58 @@ export function Fundamentos_de_HTML_y_CSS() {
       <Heder />
       <div className="row my-5">
         <div className="col">
-          <section>
-            <h2>1. Fundamentos de HTML y CSS</h2>
-            <hr />
-            <h3>HTML Crash Course:</h3>
-            <ReactPlayer
-              className="player"
-              url="https://www.youtube.com/watch?v=916GWv2Qs08&pp=ygUSSFRNTCBDcmFzaCBDb3Vyc2U6"
-              controls={true} // Muestra los controles de reproducción (pausa, reproducción, volumen, etc.).
-            />
-          </section>
+          <div className="contenedor">
+            <section>
+              <hr />
+              <h2>1. Fundamentos de HTML y CSS</h2>
+              <hr />
+              <h3>HTML Crash Course:</h3>
+              <ReactPlayer
+                className="player"
+                url="https://www.youtube.com/watch?v=916GWv2Qs08&pp=ygUSSFRNTCBDcmFzaCBDb3Vyc2U6"
+                controls={true} // Muestra los controles de reproducción (pausa, reproducción, volumen, etc.).
+              />
+            </section>
 
-          <section>
-            <h3>CSS Basics: </h3>
-            <ReactPlayer
-              className="player"
-              url="https://www.youtube.com/watch?v=1Rs2ND1ryYc"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>CSS Basics: </h3>
+              <ReactPlayer
+                className="player"
+                url="https://www.youtube.com/watch?v=1Rs2ND1ryYc"
+                controls={true}
+              />
+            </section>
 
-          <section>
-            <h3>W3Schools - HTML Tutorial:</h3>
-            <a
-              href="https://www.w3schools.com/html/"
-              className="btn btn-outline-secondary m-2"
-            >
-              Sitio
-            </a>
-            <ReactPlayer
-              className="player"
-              url="https://www.youtube.com/watch?v=ewZ_YWbIWXI&pp=ygUZVzNTY2hvb2xzIC0gSFRNTCBUdXRvcmlhbA%3D%3D"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>W3Schools - HTML Tutorial:</h3>
+              <a
+                href="https://www.w3schools.com/html/"
+                className="btn btn-outline-secondary m-2"
+              >
+                Sitio
+              </a>
+              <ReactPlayer
+                className="player"
+                url="https://www.youtube.com/watch?v=ewZ_YWbIWXI&pp=ygUZVzNTY2hvb2xzIC0gSFRNTCBUdXRvcmlhbA%3D%3D"
+                controls={true}
+              />
+            </section>
 
-          <section>
-            <h3>MDN Web Docs - CSS:</h3>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-              className="btn btn-outline-secondary m-2"
-            >
-              Sitio
-            </a>
-            <ReactPlayer
-              className="player"
-              url="https://www.youtube.com/watch?v=H54Ka7eL_50&pp=ygUSTUROIFdlYiBEb2NzIC0gQ1NT"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>MDN Web Docs - CSS:</h3>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                className="btn btn-outline-secondary m-2"
+              >
+                Sitio
+              </a>
+              <ReactPlayer
+                className="player"
+                url="https://www.youtube.com/watch?v=H54Ka7eL_50&pp=ygUSTUROIFdlYiBEb2NzIC0gQ1NT"
+                controls={true}
+              />
+            </section>
+          </div>
         </div>
       </div>
       <Nav_Gia_Front_End />
@@ -73,41 +76,43 @@ export function Estilización_avanzada_con_CSS() {
       <Heder />
       <div className="row my-5">
         <div className="col">
-          <hr />
-          <h2>2. Estilización avanzada con CSS</h2>
-          <hr />
+          <div className="contenedor">
+            <hr />
+            <h2>2. Estilización avanzada con CSS</h2>
+            <hr />
 
-          <section>
-            <h3>CSS Flexbox:</h3>
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=-Wlt8NRtOpo&pp=ygUMQ1NTIEZsZXhib3g6"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>CSS Flexbox:</h3>
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=-Wlt8NRtOpo&pp=ygUMQ1NTIEZsZXhib3g6"
+                controls={true}
+              />
+            </section>
 
-          <section>
-            <h3>CSS Grid:</h3>
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=QBOUSrMqlSQ&pp=ygUIQ1NTIEdyaWQ%3D"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>CSS Grid:</h3>
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=QBOUSrMqlSQ&pp=ygUIQ1NTIEdyaWQ%3D"
+                controls={true}
+              />
+            </section>
 
-          <section>
-            <h3>Sass (Syntactically Awesome Stylesheets):</h3>
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=_a5j7KoflTs&pp=ygUpU2FzcyAoU3ludGFjdGljYWxseSBBd2Vzb21lIFN0eWxlc2hlZXRzKTo%3D"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>Sass (Syntactically Awesome Stylesheets):</h3>
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=_a5j7KoflTs&pp=ygUpU2FzcyAoU3ludGFjdGljYWxseSBBd2Vzb21lIFN0eWxlc2hlZXRzKTo%3D"
+                controls={true}
+              />
+            </section>
 
-          <section>
-            <h3>Bootstrap:</h3>
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=QCw0L6FupQ0"
-              controls={true}
-            />
-          </section>
+            <section>
+              <h3>Bootstrap:</h3>
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=QCw0L6FupQ0"
+                controls={true}
+              />
+            </section>
+          </div>
         </div>
       </div>
       <Nav_Gia_Front_End />
@@ -311,6 +316,177 @@ export function Pruebas_y_Depuración() {
               controls={true}
             />
           </section>
+        </div>
+      </div>
+      <Nav_Gia_Front_End />
+      <Footer />
+    </div>
+  );
+}
+
+export function Optimización_de_Rendimiento_y_Accesibilidad() {
+  return (
+    <div className="container">
+      <Heder />
+      <div className="row my-5">
+        <div className="col">
+          <hr />
+          <h3>7. Optimización de Rendimiento y Accesibilidad</h3>
+          <hr />
+
+          <section>
+            <h3>Google PageSpeed Insights:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=zVfBD5HD6-w&pp=ygUjY3Vyc28gZGUgR29vZ2xlIFBhZ2VTcGVlZCBJbnNpZ2h0czo%3D"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>WebAIM (Recursos de accesibilidad web):</h3>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=ngMOsuZL-XE&t=385s&pp=ygUwY3Vyc28gZGUgV2ViQUlNIChSZWN1cnNvcyBkZSBhY2Nlc2liaWxpZGFkIHdlYik6"
+              controls
+            />
+          </section>
+        </div>
+      </div>
+      <Nav_Gia_Front_End />
+      <Footer />
+    </div>
+  );
+}
+
+export function Versionado_de_Código() {
+  return (
+    <div className="container">
+      <Heder />
+      <div className="row my-5">
+        <div className="col">
+          <hr />
+          <h3>8. Versionado de Código</h3>
+          <hr />
+
+          <section>
+            <h3>Git y GitHub:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=mBYSUUnMt9M&t=35s&pp=ygUPY3Vyc28gZGUgZ2l0aHVi"
+              controls
+            />
+          </section>
+        </div>
+      </div>
+      <Nav_Gia_Front_End />
+      <Footer />
+    </div>
+  );
+}
+
+export function Despliegue_y_Hosting() {
+  return (
+    <div className="container">
+      <Heder />
+      <div className="row my-5">
+        <div className="col">
+          <hr />
+          <h3>9. Despliegue y Hosting</h3>
+          <hr />
+
+          <section>
+            <h3>Heroku:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=gItqzShex5M&pp=ygUNY3Vyc28gaGVyb2t1IA%3D%3D"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>Netlify:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=dJpU2OqiwxE&t=768s&pp=ygUQY3Vyc28gZGUgbmV0bGlmeQ%3D%3D"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>Vercel:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=yxLOBFXSkv0&pp=ygUPY3Vyc28gZGUgdmVyc2Vs"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>AWS:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=1eLRm5hhXJI&pp=ygUMY3Vyc28gZGUgYXdz"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>Google Cloud:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=F5-U-__9zfA&pp=ygUWY3Vyc28gZGUgR29vZ2xlIENsb3VkOg%3D%3D"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>DigitalOcean:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=z4SIkzGkDD0&pp=ygUVY3Vyc28gZGUgRGlnaXRhbE9jZWFu"
+              controls
+            />
+          </section>
+
+          <section>
+            <h3>GitHub Pages:</h3>
+            <ReactPlayer
+              className="player"
+              url="https://www.youtube.com/watch?v=IrNWFvV8szA&pp=ygUVY3Vyc28gZGUgZ2l0aHViIHBhZ2Vz"
+              controls
+            />
+          </section>
+        </div>
+      </div>
+      <Nav_Gia_Front_End />
+      <Footer />
+    </div>
+  );
+}
+
+export function Proyectos_Prácticos() {
+  return (
+    <div className="container">
+      <Heder />
+      <div className="row my-5">
+        <div className="col">
+          <div className="contenedor">
+            <hr />
+            <h3>10. Proyectos Prácticos</h3>
+            <hr />
+            <p>
+              Crea proyectos pequeños para aplicar lo que has aprendido. Algunas
+              ideas incluyen un sitio web personal, una aplicación de lista de
+              tareas o un clon de una página web que admires
+            </p>
+            <p>
+              Recuerda que la práctica constante es esencial para convertirse en
+              un desarrollador front-end competente. A medida que avanzas en
+              cada paso, aplica tus conocimientos en proyectos personales y
+              colaborativos para fortalecer tus habilidades. ¡Buena suerte en tu
+              viaje de aprendizaje!
+            </p>
+          </div>
         </div>
       </div>
       <Nav_Gia_Front_End />
