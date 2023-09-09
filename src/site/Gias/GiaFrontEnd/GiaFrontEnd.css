@@ -8,13 +8,26 @@
   margin: 10px;
 }
 
+#contenedor {
+  width: 70%;
+  margin: 2em 0px;
+}
+
+#contenedor .player {
+  max-width: 100%;
+  max-height: 250px;
+}
+
 /* max-width: 1143px */
-@media (min-width: 300px) and (max-width: 1143px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 300px) and (max-width: 1144px) {
+  #contenedor {
+    width: 100%;
+    text-align: center;
+  }
+
+  #contenedor .player {
+    max-width: 100%;
+    max-height: 270px;
   }
 
   .nav-gia-frontend {
