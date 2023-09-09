@@ -40,4 +40,16 @@ export const Youtube = [
     titulo: "Introducción a la programación con JavaScript",
     video: "https://youtu.be/Z34BF9PCfYg",
   },
+  {
+    titulo: "Extensión de Vim para Visual Studio Code",
+    video: "https://youtu.be/c1br7WPX1bM",
+  },
+  {
+    titulo: "3 Alternativas a Github Copilot y otras más",
+    video: "https://youtu.be/EObARLYJoZA",
+  },
+  {
+    titulo: "React y TailwindCSS - Dark Theme, cambio de tema",
+    video: "https://youtu.be/_8FTL-xNz9Q",
+  },
 ];
