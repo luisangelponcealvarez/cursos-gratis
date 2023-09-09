@@ -20,10 +20,10 @@ export function App() {
     <>
       <Router>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
 
           {/* Rutas de componentes de Gia Front End */}
-          {/* <Route path="/GiaFrontEnd" element={<GiaFrontEnd />} /> */}
+          <Route path="/GiaFrontEnd" element={<GiaFrontEnd />} />
           <Route
             path="/Fundamentos_de_HTML_y_CSS"
             element={<Fundamentos_de_HTML_y_CSS />}
