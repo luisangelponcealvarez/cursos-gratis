@@ -27,6 +27,7 @@ function Heder() {
                   Home
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link
                   className="nav-link active"
@@ -34,6 +35,26 @@ function Heder() {
                   to="/GiaFrontEnd"
                 >
                   GiaFrontEnd
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/GiaBackEnd"
+                >
+                  GiaBackEnd
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/Notion"
+                >
+                  Notion
                 </Link>
               </li>
             </ul>

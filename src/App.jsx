@@ -14,6 +14,7 @@ import {
   Pruebas_y_Depuración,
   Versionado_de_Código,
 } from "./site/Gias/GiaFrontEnd/Componentes_de_la_gia";
+import { Notion } from "./site/Notion";
 
 export function App() {
   return (
@@ -65,6 +66,9 @@ export function App() {
             path="/Proyectos_Prácticos"
             element={<Proyectos_Prácticos />}
           />
+
+          {/* sites */}
+          {/* <Route path="/Notion" element={<Notion />} /> */}
 
           {/* Ruta para el componente que sirve para indicar que no existe esta pagina si no esta la ruta */}
           <Route path="/*" element={<Error404 />} />
