@@ -1,6 +1,5 @@
 .card {
   width: 400px;
-  height: 400px;
   margin: auto 10px;
 }
 
@@ -10,5 +9,12 @@
 
 .video {
   max-width: 100%;
-  max-height: 275px;
+  max-height: 250px;
+}
+
+@media (max-width: 800px) {
+  .video {
+    max-width: 100%;
+    max-height: 200px;
+  }
 }
