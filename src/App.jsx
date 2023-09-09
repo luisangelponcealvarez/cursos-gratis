@@ -23,7 +23,7 @@ export function App() {
           <Route path="/" element={<Home />} />
 
           {/* Rutas de componentes de Gia Front End */}
-          <Route path="/GiaFrontEnd" element={<GiaFrontEnd />} />
+          {/* <Route path="/GiaFrontEnd" element={<GiaFrontEnd />} />
           <Route
             path="/Fundamentos_de_HTML_y_CSS"
             element={<Fundamentos_de_HTML_y_CSS />}
@@ -64,7 +64,7 @@ export function App() {
           <Route
             path="/Proyectos_Prácticos"
             element={<Proyectos_Prácticos />}
-          />
+          /> */}
 
           {/* Ruta para el componente que sirve para indicar que no existe esta pagina si no esta la ruta */}
           <Route path="/*" element={<Error404 />} />
