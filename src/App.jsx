@@ -68,7 +68,7 @@ export function App() {
           />
 
           {/* sites */}
-          {/* <Route path="/Notion" element={<Notion />} /> */}
+          <Route path="/Notion" element={<Notion />} />
 
           {/* Ruta para el componente que sirve para indicar que no existe esta pagina si no esta la ruta */}
           <Route path="/*" element={<Error404 />} />
