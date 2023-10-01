@@ -1,26 +1,34 @@
-# Programacion-Gratis
+# Cursos-Gratis
+
+Este proyecto es un sitio web con diferentes secciones para estudiantes autodidactas de programación pero el sitio no se queda alli el sitio esta pensado para dar a los usuarios un poco de conocimiento de forma gratuita por ejemplo hay gias para una sección en especifico como seria la gia de desarrollo front end y otra que no va de tecnologia si no de organización que seria la de notion.
 
 ## Installation
 
-1. Haz un git clone https://github.com/luisangelponcealvarez/Programacion-Gratis.git
-2. npm install
-3. npm run dev
-4. para subir la aportación al repositorio has un commit describiendo lo que hicistes de la aportación del programa y suvela a la rama develop para la revision de los cambio de sitio
+~Clone this repository
 
-[Ver el sitio](https://programacion-gratis.netlify.app/)
+```
+git clone https://github.com/luisangelponcealvarez/cursos-gratis.git
+```
 
-## La estructura del proyecto es la siguiente
+~Install dependencies (make sure you are in the root of this repository)
 
-<pre>
-index.css: Este archivo contiene los estilos de todo el sitio que serian los estilos predeterminados
+```
+npm install
+```
 
-/public: Aquí van todos los archivos como serian videos img etc
+~Starting server on port 3000
 
-/src/Components: Aquí van todos los componentes que se utilizan en todo el proyecto
+```
+npm run dev
+```
 
-/src/site: Aquí van los archivos de los sitios web esta carpeta se compone en su interior de carpetas que tienen archivos para hacer los sitios
-</pre>
+[Ver el sitio](https://cursos-gratis.netlify.app/)
 
 ## Miniatura
 
 ![miniatura](./public/img/miniatura.png)
+
+### Para colaborar en el proyecto
+
+Si quieres colaborar mandarme un mensaje a mi sitio de [Contacto](https://luisangelponcealvarez.netlify.app/Contact)
+para añadirlos mostrar les la organización para hacer tareas etc y llevar las a cabo.
